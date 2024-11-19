@@ -8,3 +8,4 @@ Route::prefix('info')->group(function () {
     Route::get('/client', [UserController::class, 'getClientInfo']);
     Route::get('/database', [UserController::class, 'getDatabaseInfo']);
 });
+
